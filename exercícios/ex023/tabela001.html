@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse; /*Separete = Padrão*/
+            width: 400px;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+        td.dado{
+            background-color: rgb(101, 101, 250);
+        }
+        td.tabela{
+            background-color: chartreuse;
+        }
+        td.amarelo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>minha primeira tabela</h1>
+    <!--
+    Hierarquia de Tabelas (simples)
+    Table = Tabela
+        Table row = Linha de tabela
+            Table Header = Cabeçalho de tabela
+            Table Data = Dado de tabela
+    
+        *Se a hierarquia não for respeitada, os dados aparecerão ou em cima ou em baixo    
+            -->
+    <table>
+        <tr><!--Table Row -> Primeira linha-->
+            <td >A1</td><!--Table Data -> cada TD é um dado na tabela-->
+            <td>B1</td><!--O fechamento da tag TD e Tr é opcional-->
+            <td class="amarelo">C1</td>
+        </tr>
+        <tr><!--Segunda Linha-->
+            <td class="dado">A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr><!--Terceira Linha-->
+            <td>A3</td>
+            <td class="tabela">B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+</body>
+</html>
