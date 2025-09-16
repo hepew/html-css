@@ -12,8 +12,14 @@
             text-align: right;
         }
 table{
+    position:relative;
    border-collapse: collapse;
     width: 400px;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
 }
 thead, tfoot{
     background-color: gray;
@@ -23,15 +29,20 @@ td, th{
     
      border: 1px solid black;
 }
+
+tbody > tr:nth-child(2n){
+    background-color: beige;
+}
     </style>
     <title>Tabela grande</title>
 </head>
 <body>
 <h1>Tabela grande</h1>
     <table>
+        <caption>Tabela do Brasil</caption>
         <thead>
-           <th>Estado</th>
-           <th>População</th>
+           <th scope="col">Estado</th>
+           <th scope="col" style="width: 70px;">População</th>
         </thead>
         <tbody>
             <tr>
@@ -48,11 +59,224 @@ td, th{
             </tr>
             <td>Bahia</td>
             <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
+             <tr>
+                <td>São paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <td>Bahia</td>
+            <td class="num">14 141 626</td>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>98.840.415</strong></td>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsum, architecto autem deleniti, pariatur voluptatem accusamus sequi optio tempora dignissimos labore accusantium aut debitis harum animi eligendi consequuntur enim dolor?
+    Perspiciatis quasi, tenetur obcaecati consequatur officia voluptate nobis cumque magnam fugiat, sapiente laudantium veritatis excepturi beatae non at, sequi vel reiciendis labore enim. Nihil perspiciatis aperiam ea culpa iure temporibus!
+    Dolorem atque tenetur natus enim debitis consequatur ut deserunt incidunt. Magnam commodi modi voluptas laudantium in ad laboriosam eveniet blanditiis nesciunt sint quas neque, veniam mollitia. Sunt accusantium sed voluptatum?
+    Sint facilis accusamus possimus quae. Rerum consequatur quisquam, odio ratione nulla eius error quis quidem aspernatur ipsam molestiae adipisci officia. Ex placeat sapiente nihil repudiandae maxime nesciunt, perferendis ipsum modi!
+    Minus, corporis maxime aliquid consequatur quae sint, vero voluptatem quisquam aperiam a, laboriosam dolorem. Animi quam optio, iusto accusantium nulla repudiandae vitae molestias assumenda expedita labore, adipisci dolore? Eos, doloribus.
+    Unde sed est, eligendi eaque nesciunt veritatis voluptatum nam quas cumque officia rem fugiat error. Velit ipsam sint voluptatibus laborum eaque veritatis! Tempora minus aut, optio distinctio pariatur tenetur ducimus.
+    Doloribus amet repudiandae culpa modi autem magnam neque alias dolorem obcaecati facere? Odit veniam, ullam quae vero, adipisci quo ea atque explicabo quasi in voluptatibus. Voluptate officiis eligendi alias sapiente.
+    Mollitia voluptates quibusdam officia excepturi corporis quos dolor id rerum labore sapiente ad, nulla eligendi eum voluptatem necessitatibus nihil perspiciatis, impedit harum at deleniti possimus dicta beatae blanditiis minus. Sint.
+    Laborum doloremque fuga voluptatum quas culpa porro distinctio, repellat exercitationem. Magnam facilis temporibus voluptatum sed quam. Ut deserunt, voluptas maiores amet, error ipsam libero similique tempora nihil sint tempore cupiditate.
+    Facilis quasi quo repellat reprehenderit libero nulla expedita aliquam assumenda atque maxime dolorem necessitatibus recusandae animi a distinctio consequuntur, velit est eaque ducimus sint mollitia perspiciatis pariatur. Architecto, saepe mollitia?
+    Vitae inventore assumenda quidem maiores sunt aspernatur sit ab voluptatibus aliquam eos vel ullam corrupti quia odio, ut facere magni earum! Aliquam at reprehenderit hic officiis cum exercitationem voluptate assumenda.
+    Corrupti iusto sint laudantium minima molestias? Nam cum reiciendis minima culpa officiis. Illo saepe exercitationem doloribus corporis in non fugiat, quam quod alias incidunt earum, velit, dicta blanditiis accusamus sequi.
+    Perferendis necessitatibus repudiandae perspiciatis explicabo esse quibusdam at labore laboriosam voluptatem a doloremque quos ab consequuntur officia excepturi tempore earum tempora, corrupti aperiam quas. Natus excepturi tempora id alias dolorum!
+    Qui perspiciatis ad exercitationem praesentium, pariatur facere veritatis obcaecati amet magni voluptate beatae magnam vero doloribus accusantium corporis expedita impedit. Incidunt, autem repellendus fugit nostrum porro quisquam magnam numquam expedita?
+    Debitis libero at odit officiis dolore eaque. Facilis, doloribus non illo necessitatibus impedit natus veritatis ratione, odit eum corrupti consequuntur praesentium voluptate sed, possimus itaque aspernatur. Unde nisi magni corporis.
+    Aperiam odio incidunt nobis debitis dignissimos! Pariatur iure mollitia rem quos similique maxime dolores, quidem iste deserunt tempora eveniet quod deleniti voluptatem alias sit aspernatur aut. Reiciendis ipsum aut doloremque!
+    Dicta ullam cum assumenda ex placeat corporis amet recusandae iste nihil quo voluptatibus ab vel, perspiciatis, dolores vero pariatur. Nobis in, id nesciunt vitae animi similique totam necessitatibus odit libero.
+    Culpa id adipisci voluptates, quidem ipsam, illo exercitationem quisquam expedita eius corrupti rem dolorem. Fugiat voluptatem architecto veniam, dolor, iste esse consequuntur necessitatibus et facilis perspiciatis explicabo error, illum doloremque?
+    Consequuntur sequi, corrupti animi incidunt molestiae expedita excepturi, nihil consequatur sunt mollitia quo blanditiis veritatis minima nemo dolore suscipit velit dicta nulla adipisci in voluptas aspernatur. Possimus ipsa consequatur numquam!
+    Hic, molestiae. Modi a molestiae distinctio illum dignissimos. Nihil eius inventore tenetur, quia impedit et quam alias error doloremque eos iusto, totam earum dolor explicabo quasi voluptate dolore asperiores suscipit.
+    Amet delectus itaque reiciendis culpa voluptatibus aliquam laboriosam eum cumque unde nulla odit iusto magnam, nobis illum sint quibusdam facere quae debitis incidunt? Quia, quis consequatur. Quaerat aspernatur fugiat voluptatem!
+    Quam enim laboriosam praesentium tempora consequuntur, explicabo repellendus laborum laudantium ipsa doloremque aperiam, asperiores minima rem nemo mollitia. Doloremque aspernatur impedit provident? Atque ad ut minima harum itaque sapiente soluta.
+    Eum nihil animi quis corporis odio possimus nemo repudiandae culpa? Deserunt voluptates excepturi cum vitae iusto molestiae, provident dolorum eaque natus eum alias sint at, temporibus vero aspernatur esse unde.
+    Placeat dolores repudiandae accusamus officiis ducimus quas, impedit nostrum tempore nobis sit possimus ipsum nihil labore eveniet nemo quod beatae facilis. Incidunt ipsam fugiat laudantium asperiores, delectus quae non repellendus?
+    Ipsam quo obcaecati iste explicabo deleniti consequuntur necessitatibus ea. Aspernatur, repellat! Fuga, veniam unde iste laborum laboriosam impedit enim saepe voluptas! Recusandae magnam ea enim quas accusamus alias suscipit placeat.
+    Consequuntur, atque voluptatem molestiae architecto sapiente esse mollitia consectetur alias officiis quidem accusantium assumenda dicta, exercitationem quis repellat obcaecati id ipsum. Ratione fugiat delectus veritatis magnam excepturi itaque, id sint?
+    Quo odio excepturi deleniti facilis inventore omnis laboriosam ipsa modi sunt aut veniam rerum blanditiis officiis assumenda magni ullam, cum possimus totam minus doloribus error nemo necessitatibus. Odit, unde quasi!
+    Quo fugiat sint voluptates perferendis deleniti officia quidem natus quam aliquid quae mollitia cupiditate, voluptatum veritatis. Esse fugit obcaecati dolor totam nihil, vero rem expedita voluptates nesciunt doloremque, quibusdam quod?
+    Quisquam ad facilis reprehenderit repellendus autem odit recusandae error nemo fuga aperiam quibusdam, expedita quod illo nulla ea voluptas sit. Totam nulla consequuntur obcaecati perferendis earum praesentium unde explicabo pariatur?
+    Ducimus porro aliquam doloribus nesciunt. Ullam ratione earum delectus quo rerum animi velit ad, debitis fuga harum iure aliquam tempora voluptates? Laborum quos sapiente eos nesciunt iusto laboriosam, incidunt perspiciatis!</p>
 </body>
 </html>
