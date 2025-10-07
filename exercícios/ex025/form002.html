@@ -6,13 +6,16 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
+<p>
+        <label for="iusu">Usuário:</label>
+             <input type="text" name="usu" id="iusu" required maxlength="10" minlength="3" size="20" placeholder="Digite seu nome">
+</p>
 
-        <p><label for="iusu">Usuário:</label>
-             <input type="text" name="usu" id="iusu" required maxlength="10" minlength="3" size="20" placeholder="Digite seu nome"></p>
-
-        <p><label for="isenha">Senha:</label>
-        <input type="password" name="senha" id="isenha" required maxlength="10" minlength="6" placeholder="Digite sua senha"></p>
+<p>
+            <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" required maxlength="10" minlength="6" placeholder="Digite sua senha">
+</p>
 
         <p>
             <input type="submit" value="Confirmar">
