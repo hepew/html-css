@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <h1>Testando formulário</h1>
+    <form action="cadastrofeito.ph" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" required size="40" placeholder="Nome Completo">
+            </p>
+
+            <p>
+                <label for="inascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="inascimento" required>
+            </p>
+
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required placeholder="exemplo1234@exemplo.com" autocomplete="email" size="30">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
