@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Perguntas Pessoais</h1>
+
+    <form action="cadastro.ph" method="get">
+
+        <fieldset class="Sexo">
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="imas" value="M">
+             <label for="imas">Masculino</label> <br>
+
+             <input type="radio" name="sexo" id="ifem" value="F">
+             <label for="ifem">Feminino</label>
+        </fieldset>
+
+        <fieldset class="Esportes">
+            <legend>Esportes favoritos</legend>
+
+            <input type="checkbox" id="ifut" name="fut" value="F">
+            <label for="ifut">Futebol</label><br>
+
+            <input type="checkbox" id="ibas" name="bas" value="B">
+            <label for="ibas">Basquete</label><br>
+
+            <input type="checkbox" id="iten" name="ten" value="T">
+            <label for="iten">Tenis</label><br>
+
+            <input type="checkbox" id="inat" name="nat" value="N">
+            <label for="inat">Natação</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Perguntas de sim ou não</legend>
+
+            <h3>Você dormiu bem?</h3>
+            <input type="radio" name="p1" id="1sim" value="S">
+            <label for="1sim">Sim</label><br>
+
+            <input type="radio" name="p1" id="1nao" value="N">
+            <label for="1nao">Não</label>
+
+             <h3>Você tomou café da manhã?</h3>
+            <input type="radio" name="p2" id="2sim" value="S">
+            <label for="2sim">Sim</label><br>
+
+            <input type="radio" name="p2" id="2nao" value="N">
+            <label for="2nao">Não</label>
+
+            <h3>Você arrumou sua cama?</h3>
+            <input type="radio" name="p3" id="3sim" value="S">
+            <label for="3sim">Sim</label><br>
+
+            <input type="radio" name="p3" id="3nao" value="N">
+            <label for="3nao">Não</label>
+
+            <h3>Você foi fazer exercícios físicos hoje (ex: Academia ou Calistenia)?</h3>
+            <input type="radio" name="p4" id="4sim" value="S">
+            <label for="4sim">Sim</label><br>
+
+            <input type="radio" name="p4" id="4nao" value="N">
+            <label for="4nao">Não</label>
+
+            <h3>Você estudou algum assunto que te interessa hoje?</h3>
+            <input type="radio" name="p5" id="5sim" value="S">
+            <label for="5sim">Sim</label><br>
+
+            <input type="radio" name="p5" id="5nao" value="N">
+            <label for="5nao">Não</label>
+        </fieldset>
+
+        <fieldset>
+            <h3>As suas alternativas são totalmente paricais?</h3>
+             <input type="radio" name="p6" id="6sim" value="S">
+            <label for="6sim">Sim</label><br>
+
+            <input type="radio" name="p6" id="6nao" value="N">
+            <label for="6nao">Não</label>
+        </fieldset>
+
+        <fieldset style="text-align: center; padding: 20px;">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
