@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+*{
+padding: 0;
+margin: 0;
+}
+html{
+    background-color: aqua;
+}
+body{
+    background-color: antiquewhite;
+}

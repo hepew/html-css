@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body html{
+    background-color: white;
+}
+*{
+    margin: 10;
+    padding: 10;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+menu{
+    display: none;
+}
+article::after{
+    content: 'Esse artigo foi feito por Hepew 8/10/2025';
+}
