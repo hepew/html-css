@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            flex-flow: row nowrap;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: lightcoral;
+                 justify-content: center;
+            align-items: center;
+        }
+
+        section{
+       
+            width: 200px;
+            height: 200px;
+            background-color: lightskyblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Hi</h1>
+        </section>
+    </main>
+</body>
+</html>
