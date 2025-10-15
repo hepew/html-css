@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .pai{
+            flex-flow: row wrap;
+            display: flex;
+            background-color: rgb(59, 36, 190);
+        }
+        .filho{
+            padding: 10px;
+            background-color: #67f7f7a4;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">Exemplo de Bloco A</div>
+        <div class="filho">Exemplo de Bloco B</div>
+        <div class="filho">Exemplo de Bloco C</div>
+        <div class="filho">Exemplo de Bloco D</div>
+        <div class="filho">Exemplo de Bloco E</div>
+        
+    </div>
+</body>
+</html>
